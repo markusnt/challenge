@@ -1,0 +1,12 @@
+const INVESTMENT_REDEMPTION_NAVIGATOR_SCREENS = {
+  HOME: 'HomeRedemption',
+  DETAILS: 'Details',
+};
+
+export const NAVIGATORS = {
+  INVESTMENT_REDEMPTION_NAVIGATOR: 'InvestmentRedemptionNavigator',
+};
+
+export const SCREENS = {
+  INVESTMENT_REDEMPTION: { ...INVESTMENT_REDEMPTION_NAVIGATOR_SCREENS },
+};
